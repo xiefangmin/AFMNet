@@ -28,16 +28,18 @@ mmdet==3.3.0
 # How to use?
 
 1. Download the [VisDrone Dataset](https://github.com/VisDrone/VisDrone-Dataset)
-2. Download our ground truth gaussian mask label ( [Baidu Drive](https://pan.baidu.com/s/1kAsSlg8QHvD83E-3SMrZZg ) `passwd:ki77`)
-3. Install mmdetection
-4. Edit the data path
-5. Train and Evaluation
+2. Install mmdetection
+3. Edit the data path
+4. Train and Evaluation
 
+### Core File
+```
 
+```
 
 # Dataset
 
-[VisDrone Dataset](https://github.com/VisDrone/VisDrone-Dataset)
+Catalogue structure of the [VisDrone Dataset](https://github.com/VisDrone/VisDrone-Dataset)：
 
 ```
 Datasets
@@ -57,9 +59,9 @@ Datasets
 	└─── gt_mask_l  
 		└─── train  
 
-
 ```
-
+We provide the VisDrone Dataset annotations (COCO Format) and our ground truth gaussian mask labelas follows:
+[Google Drive](https://drive.google.com/file/d/1HYMeZmjT3-yW7PFpIzJtr84Sc8JqIrLG/view?usp=sharing), [Baidu Drive](https://pan.baidu.com/s/1kAsSlg8QHvD83E-3SMrZZg ) `passwd:ki77`.
 
 
 # Train
@@ -72,7 +74,7 @@ ${CONFIG_FILE} \
 [optional arguments]
 ```
 
-For instance,
+For instance：
 
 ```
 python ./train.py configs/AFM/AFMNet-tood_r50_k13.py
@@ -88,3 +90,7 @@ python ./train.py configs/AFM/AFMNet-tood_r50_k13.py
 
   
 
+# Reference
+[1] Kai Chen, Jiaqi Wang, Jiangmiao Pang, Yuhang Cao, Yu Xiong, Xiaoxiao Li, Shuyang Sun, Wansen Feng, Ziwei Liu, Jiarui Xu, et al., “Mmdetection: Open mmlab detection toolbox and benchmark,” arXiv preprint arXiv:1906.07155, 2019.
+
+[2] Pengfei Zhu, Longyin Wen, Dawei Du, Xiao Bian, Heng Fan, Qinghua Hu, and Haibin Ling, “Detection and tracking meet drones challenge,” IEEE Transactions on Pattern Analysis and Machine Intelligence, vol. 44, no. 11, pp. 7380–7399, 2021.
