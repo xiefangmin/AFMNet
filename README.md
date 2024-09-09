@@ -1,8 +1,11 @@
 # AFMNet
 ## Adaptive Fine-Grained Feature Mining and RoI Feature Interaction Network for Small Object Detection in Aerial Images
 
+This paper is submitted to the ICASSP 2025, and the source code of AFMNet will be released when it is accepted.
+
 # AFMNet
 cuda 12.1
+
 conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvidia
 
 conda create --name zmdt python=3.8 -y
@@ -19,8 +22,10 @@ mim install "mmdet==3.3.0"
 
 https://github.com/xiefangmin/AFMNet
 
-## dataset
+## Dataset
+
 https://github.com/VisDrone/VisDrone-Dataset
+
 project_root/dataset/VisDrone2019
                                  /images
                                         /train
@@ -40,13 +45,14 @@ project_root/dataset/VisDrone2019
 
 
 # Train
+
 python ./train.py configs_AHRS/AFM/AFMNet-tood_r50_k13.py
 
 # Evaluation
     toolkit: https://github.com/VisDrone/VisDrone2018-DET-toolkit   https://github.com/cocodataset/cocoapi.git
     
     1.  python Inference.py
+    
     2.  get_fuse_ret.py
       
-    
-This paper is submitted to the ICASSP 2024, and the source code of CISC-ST will be released when it is accepted.
+  
