@@ -62,7 +62,7 @@ Datasets
 ```
 
 
-The official annotation .txt annotation format is: <bbox_left>,<bbox_top>,<bbox_width>,<bbox_height>,<score>,<object_category>,<truncation>,<occlusion>.
+The official annotation .txt annotation format is: <bbox_left>, <bbox_top>, <bbox_width>, <bbox_height>, <score>, <object_category>, <truncation>, <occlusion>.
 We provide the VisDrone Dataset annotations (COCO Format) and our ground truth gaussian mask labelas follows:
 [Google Drive](https://drive.google.com/file/d/1HYMeZmjT3-yW7PFpIzJtr84Sc8JqIrLG/view?usp=sharing), [Baidu Drive](https://pan.baidu.com/s/1kAsSlg8QHvD83E-3SMrZZg ) `passwd:ki77`.
 
