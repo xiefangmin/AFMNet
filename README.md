@@ -27,11 +27,13 @@ mmdet==3.3.0
 
 # How to use?
 
-1. Download the [VisDrone](https://github.com/VisDrone/VisDrone-Dataset)
-2. Install mmdetection
-3. Download our gt_mask label ([Google Drive](https://drive.google.com/file/d/1KNACRARakvBYUuYcMUTgrfE2II_balZx/view?usp=sharing), [Baidu Drive](https://pan.baidu.com/s/1-EE-libZHlwswcmYnJtVkg) `passwd:x433`)
+1. Download the [VisDrone Dataset](https://github.com/VisDrone/VisDrone-Dataset)
+2. Download our ground truth gaussian mask label ( [Baidu Drive](https://pan.baidu.com/s/1kAsSlg8QHvD83E-3SMrZZg ) `passwd:ki77`)
+3. Install mmdetection
 4. Edit the data path
 5. Train and Evaluation
+
+
 
 # Dataset
 
