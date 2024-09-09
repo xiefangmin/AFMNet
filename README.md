@@ -46,16 +46,16 @@ Datasets
 |	└─── val
 |
 └─── labels
-		└─── annotations  
-		|	├─── train_labels.json
-		|	└─── val_labels.json
-		└─── org	 # official label
-		|	├─── train_annotations  
-		|	└─── val_annotations    
-		└─── gt_mask_s  
-		|	└─── train  
-		└─── gt_mask_l  
-			└─── train  
+	└─── annotations  
+	|	├─── train_labels.json
+	|	└─── val_labels.json
+	└─── org	 # official label
+	|	├─── train_annotations  
+	|	└─── val_annotations    
+	└─── gt_mask_s  
+	|	└─── train  
+	└─── gt_mask_l  
+		└─── train  
 
 
 ```
