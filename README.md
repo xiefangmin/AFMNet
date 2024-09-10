@@ -18,6 +18,7 @@ python = 3.9.19
 cuda = 12.1
 numpy = 1.26.4
 
+mmengine==0.10.3
 mmcv==2.1.0
 mmdet==3.3.0
 
